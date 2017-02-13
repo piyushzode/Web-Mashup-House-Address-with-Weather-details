@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!-- 
+    Student Name: Piyush Zode
+-->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=XXXXXXXX&callback=initMap"" type="text/javascript"></script>
+  </head>
+  <body onload="initialize();">
+    <div id="map" style="width: 600px; height: 500px;"></div><br>
+    <input type="button" onclick="clear_history();" name="Clear History" value="Clear History"/>
+    <div id="output">&nbsp;</div>
+  </body>
+</html>
